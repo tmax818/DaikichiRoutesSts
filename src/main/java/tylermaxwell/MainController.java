@@ -12,4 +12,14 @@ public class MainController {
 		return "Welcome";
 	}
 
+	
+	@RequestMapping("/today")
+	public String today() {
+		return "Today you will find luck in all your endeavors!";
+	}
+	
+	@RequestMapping("/tomorrow")
+	public String tomorrow() {
+		return "Tomorrow, an opportunity will arise, so be sure to be open to new ideas!";
+	}
 }
